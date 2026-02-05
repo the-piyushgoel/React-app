@@ -1,13 +1,16 @@
- import './App.css'
-
+import './App.css'
+import Header from './component/header.jsx'
+import Footer from './component/footer.jsx'
+import Registration from './component/registration.jsx'
 function App() {
-
   return (
-    <div>
-    <h1>Hello KIET</h1>
-    <h2>Demeed to be university</h2>
-    </div>
+      <div>
+      <Header>
+      </Header>
+      <Registration></Registration>
+      <Footer>
+      </Footer>
+      </div>
   )
 }
-
 export default App
